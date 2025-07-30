@@ -6,7 +6,7 @@ import Footer from "@/layouts/Footer";
 export const metadata: Metadata = {
 	title: "The B360 Group",
 	icons: {
-		icon: "/icon.png",
+		icon: "/bt360.png",
 	},
 	description:
 		"A group of companies driving growth in business, technology, urban solutions, and global exploration",
