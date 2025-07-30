@@ -19,14 +19,17 @@ const Goal = () => {
 				{/* Text */}
 				<div>
 					<h2 className='text-3xl md:text-4xl font-bold text-gray-900 mb-6 leading-tight'>
-						Four Brands, One Goal,<br />
+						Four Brands, One Goal,
+						<br />
 						One Voice, One Company
 					</h2>
 					<p className='text-gray-700 text-lg leading-relaxed max-w-xl'>
-						From business growth to technology, urban development, and
-						exploration, we believe true progress lies in connecting these
-						diverse fields. Through these connections, we create opportunities,
-						drive innovation, and build a stronger future together.
+						From Business growth solutions through Strategic
+						Marketing, Technology, Content and Expansion Services; we
+						believe true progress lies in connecting these diverse
+						fields. Through these connections, we create
+						opportunities, drive innovation, and build a stronger
+						future together.
 					</p>
 				</div>
 			</div>

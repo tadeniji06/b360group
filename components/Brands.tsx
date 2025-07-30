@@ -7,6 +7,7 @@ import {
 	m360,
 	b360,
 	e360,
+	btech,
 } from "@/assets";
 
 const Brands = () => {
@@ -20,7 +21,7 @@ const Brands = () => {
 			category: "Marketing Solutions",
 		},
 		{
-			logo: b360,
+			logo: btech,
 			title: "IT Services and Solutions",
 			image: IT,
 			link: "https://tech360online.com/",
@@ -29,10 +30,10 @@ const Brands = () => {
 		},
 		{
 			logo: e360,
-			title: "Business Expansion",
+			title: "Business Expansion Company",
 			image: travel,
 			link: "https://theexplore360.com/",
-			desc: "Explore360 is a travel agency that specializes in creating memorable travel experiences for individuals and businesses.",
+			desc: "Explore360 is a business expansion company that specializes in creating memorable travel experiences for individuals and businesses.",
 			category: "Travel",
 		},
 		{

@@ -1,7 +1,33 @@
 import Image from "next/image";
-import { cas, mobil, may, jac, vedura } from "@/assets";
+import {
+	cas,
+	mobil,
+	may,
+	vedura,
+	casio,
+	fran,
+	unifoam,
+	binance,
+	bitget,
+	zuri,
+	fsdh,
+	allinone,
+} from "@/assets";
 
-const logos = [mobil, vedura, jac, cas, may];
+const logos = [
+	mobil,
+	vedura,
+	cas,
+	may,
+	casio,
+	fran,
+	unifoam,
+	fsdh,
+	binance,
+	allinone,
+	bitget,
+	zuri,
+];
 
 const Service = () => {
 	return (
