@@ -8,7 +8,7 @@ const Footer = () => {
 		<div className='bg-main text-white'>
 			<div className='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12'>
 				{/* Main Footer Content */}
-				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 mb-8'>
+				<div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-8 mb-8'>
 					{/* Company Info Section */}
 					<div className='lg:col-span-2'>
 						<div className='mb-6'>
@@ -39,6 +39,117 @@ const Footer = () => {
 									<Icon icon={social.icon} className='w-4 h-4' />
 								</a>
 							))}
+						</div>
+					</div>
+
+					{/* Contact Information Section */}
+					<div>
+						<h3 className='text-white font-semibold mb-4 text-sm uppercase tracking-wider'>
+							Contact Info
+						</h3>
+						<div className='space-y-4'>
+							{/* Lagos Office */}
+							<div className='text-sm'>
+								<div className='flex items-start space-x-2 mb-2'>
+									<Icon
+										icon='mdi:map-marker'
+										className='w-4 h-4 text-gray-300 mt-0.5 flex-shrink-0'
+									/>
+									<div>
+										<p className='text-gray-300 leading-relaxed'>
+											426a Oluwadamilola Fasade Str,
+											<br />
+											Omole Phase 1, Lagos
+										</p>
+									</div>
+								</div>
+								<div className='flex items-center space-x-2'>
+									<Icon
+										icon='mdi:phone'
+										className='w-4 h-4 text-gray-300'
+									/>
+									<a
+										href='tel:+2348064968725'
+										className='text-gray-300 hover:text-white transition-colors'
+									>
+										+234 806 496 8725
+									</a>
+								</div>
+							</div>
+
+							{/* Nairobi Office */}
+							<div className='text-sm'>
+								<div className='flex items-start space-x-2 mb-2'>
+									<Icon
+										icon='mdi:map-marker'
+										className='w-4 h-4 text-gray-300 mt-0.5 flex-shrink-0'
+									/>
+									<div>
+										<p className='text-gray-300 leading-relaxed'>
+											132, Manyani East Road,
+											<br />
+											Lavington Nairobi
+										</p>
+									</div>
+								</div>
+								<div className='flex items-center space-x-2'>
+									<Icon
+										icon='mdi:phone'
+										className='w-4 h-4 text-gray-300'
+									/>
+									<a
+										href='tel:+254726505002'
+										className='text-gray-300 hover:text-white transition-colors'
+									>
+										+254 726 505 002
+									</a>
+								</div>
+							</div>
+
+							{/* Johannesburg Office */}
+							<div className='text-sm'>
+								<div className='flex items-start space-x-2 mb-2'>
+									<Icon
+										icon='mdi:map-marker'
+										className='w-4 h-4 text-gray-300 mt-0.5 flex-shrink-0'
+									/>
+									<div>
+										<p className='text-gray-300 leading-relaxed'>
+											24A Loots Road,
+											<br />
+											Blairgowrie Randburg, 2194
+										</p>
+									</div>
+								</div>
+								<div className='flex items-center space-x-2'>
+									<Icon
+										icon='mdi:phone'
+										className='w-4 h-4 text-gray-300'
+									/>
+									<a
+										href='tel:+27656946477'
+										className='text-gray-300 hover:text-white transition-colors'
+									>
+										+27 656 946 477
+									</a>
+								</div>
+							</div>
+
+							{/* Email */}
+							<div className='text-sm'>
+								<div className='flex items-center space-x-2'>
+									<Icon
+										icon='mdi:email'
+										className='w-4 h-4 text-gray-300'
+									/>
+									<a
+										href='mailto:damilola@m360solutionsgroup.com'
+										className='text-gray-300 hover:text-white transition-colors'
+									>
+										damilola@m360solutionsgroup.com
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 
