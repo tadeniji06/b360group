@@ -4,7 +4,7 @@ import IT from "./it.jpg";
 import market from "./marketing.jpg";
 import media from "./media.jpg";
 import travel from "./travel.jpg";
-import b360 from "./bt360.png";
+// import b360 from "./bt360.png";
 import e360 from "./e360.png";
 import m360 from "./m360.png";
 import goal from "./goal.png";
@@ -36,7 +36,7 @@ export {
 	goal,
 	media,
 	travel,
-	b360,
+	// b360,
 	e360,
 	m360,
 	mobil,
