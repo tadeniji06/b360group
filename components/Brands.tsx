@@ -5,7 +5,6 @@ import {
 	media,
 	IT,
 	m360,
-	b360,
 	e360,
 	btech,
 } from "@/assets";
@@ -38,10 +37,10 @@ const Brands = () => {
 		},
 		{
 			logo: "",
-			title: "Urban360 Media",
+			title: "Showcase Africa TV",
 			image: media,
-			link: "",
-			desc: "Urban360 is a media production venture that offers high-end video editing, photography, and creative content services.",
+			link: "https://showcaseafricaonline.com",
+			desc: "Showcase Africa TV is a media production venture that offers high-end video editing, photography, and creative content services.",
 			category: "Media Production",
 		},
 	];

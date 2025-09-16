@@ -7,13 +7,13 @@ import WhoWeAre from "@/components/WhoWeAre";
 
 export default function Home() {
 	return (
-		<div className=''>
+		<>
 			<Hero />
 			<WhoWeAre />
 			<Brands />
 			<Goal />
 			<KPI />
 			<Service />
-		</div>
+		</>
 	);
 }

@@ -22,7 +22,7 @@ const Hero = () => {
 				<h1 className='text-white text-3xl sm:text-4xl md:text-4xl lg:text-5xl font-bold leading-tight mb-8'>
 					A group of companies driving business growth through
 					<span className='block mt-2'>
-						Strategic Marketing, technology, Business expansion and
+						Marketing and media solutions, technology, Business expansion and
 					</span>
 					<span className='block mt-2'>Content Solutions</span>
 				</h1>
