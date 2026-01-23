@@ -7,13 +7,34 @@ import {
 	m360,
 	e360,
 	btech,
+	b360,
+	sa,
+	atb,
+	tech,
 } from "@/assets";
 
 const Brands = () => {
 	const brands = [
 		{
+			logo: sa,
+			title: "Showcase Africa",
+			image: media,
+			link: "https://showcaseafricaonline.com",
+			desc: "Showcase Africa TV is a media production venture that offers high-end video editing, photography, and creative content services.",
+			category: "Media Production",
+		},
+		{
+			logo: atb,
+			title: "Africa Tech Business",
+			image: tech,
+			link: "https://africatechbusiness.com",
+			desc: `Decoding Africa’s Tech, Business & Innovation Landscape
+We analyze Africa’s startup ecosystem, digital markets, business trends, and regulatory shifts — bringing clear, data-backed storytelling to a rapidly growing innovation economy.`,
+			category: "Media Production",
+		},
+		{
 			logo: m360,
-			title: "M360 Marketing Solutions",
+			title: "M360 Solutions",
 			image: market,
 			link: "https://m360solutionsgroup.com/",
 			desc: "M360 is a marketing solutions company dedicated to helping businesses grow by providing strategic marketing, branding, and digital solutions that drive results.",
@@ -28,20 +49,12 @@ const Brands = () => {
 			category: "IT Services",
 		},
 		{
-			logo: e360,
+			logo: b360,
 			title: "Business Expansion Company",
 			image: travel,
-			link: "https://theexplore360.com/",
-			desc: "Explore360 is a business expansion company that specializes in creating memorable travel experiences for individuals and businesses.",
-			category: "Travel",
-		},
-		{
-			logo: "",
-			title: "Showcase Africa TV",
-			image: media,
-			link: "https://showcaseafricaonline.com",
-			desc: "Showcase Africa TV is a media production venture that offers high-end video editing, photography, and creative content services.",
-			category: "Media Production",
+			link: "https://thisisbusiness360.com/",
+			desc: "Business360 is a business expansion company that specializes in creating memorable business and production experiences for individuals and businesses.",
+			category: "Business Expansion",
 		},
 	];
 

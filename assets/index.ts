@@ -6,6 +6,7 @@ import media from "./media.jpg";
 import travel from "./travel.jpg";
 // import b360 from "./bt360.png";
 import e360 from "./e360.png";
+import b360 from "./b360.jpg";
 import m360 from "./m360.png";
 import goal from "./goal.png";
 import mobil from "./mobil.png";
@@ -22,6 +23,9 @@ import bitget from "./bitget.png";
 import zuri from "./zuri.png";
 import allinone from "./aione.png";
 import fsdh from "./fsdl.jpeg";
+import sa from "./sa.png";
+import atb from "./atb.png";
+import tech from "./tech.png";
 
 export {
 	logo,
@@ -48,4 +52,8 @@ export {
 	casio,
 	fran,
 	unifoam,
+	b360,
+	sa,
+	atb,
+	tech,
 };
