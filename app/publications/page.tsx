@@ -77,7 +77,9 @@ const Publications = () => {
 
 								{/* Logo Overlay */}
 								<div className='absolute bottom-4 left-4 right-4'>
-									<div className='bg-white/90 backdrop-blur-sm p-3 rounded-xl inline-block mb-2 shadow-lg'>
+									<div
+										className={`${brand.title === "Showcase Africa" ? "bg-gray-800/90" : "bg-white/90"} backdrop-blur-sm p-3 rounded-xl inline-block mb-2 shadow-lg`}
+									>
 										<Image
 											src={brand.logo}
 											alt={`${brand.title} logo`}

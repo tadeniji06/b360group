@@ -1,6 +1,6 @@
 import { Icon } from "@iconify/react/dist/iconify.js";
 import Image from "next/image";
-import { logo } from "@/assets";
+import { b360 } from "@/assets";
 import { brands, socials } from "@/utils/data";
 
 const Footer = () => {
@@ -16,7 +16,7 @@ const Footer = () => {
 								width={120}
 								height={30}
 								alt='B360 Logo'
-								src={logo}
+								src={b360}
 								className='w-20 h-auto mb-4'
 							/>
 						</div>

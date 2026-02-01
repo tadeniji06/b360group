@@ -6,7 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { motion, AnimatePresence } from "framer-motion";
 import { Icon } from "@iconify/react";
-import { logo } from "@/assets";
+import { b360 } from "@/assets";
 
 const Header = () => {
 	const [isOpen, setIsOpen] = useState(false);
@@ -55,11 +55,11 @@ const Header = () => {
 						>
 							<div className='bg-white/10 p-2 rounded-lg backdrop-blur-sm'>
 								<Image
-									src={logo}
+									src={b360}
 									alt='B360 Group'
 									width={180}
 									height={50}
-									className='w-28 sm:w-36 h-auto brightness-0 invert'
+									className='w-28 sm:w-36 h-auto'
 								/>
 							</div>
 						</Link>
